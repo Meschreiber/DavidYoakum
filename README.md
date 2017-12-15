@@ -26,8 +26,4 @@ Work with the candidate to create a simple to-do app with the below requirements
 
 5. Add animation effects to the interactions to make the app feel more natural.
 
-Be on the lookout for:
 
-1. Did candidates require extensive hand-holding, or did they jump quickly into a working solution?
-
-2. Did candidates make modern choices (a framework, or native JS) vs. relying on jQuery?
