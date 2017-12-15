@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do App</title>
+
+    <!--- Stylesheets -->
+    <link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="todo-container">
+        <h1>My To-Do App</h1>
+        <h2>Enter a to-do and hit enter</h2>
+        <form class="todo-form-js" id="toDoForm">
+            <fieldset>
+                <input class="todo-input todo-input-js" type="text" id="todoInput" placeholder="Ex: buy cat food">
+            </fieldset>
+        </form>
+        <ul class="todo-list todo-list-js" id="toDoList"></ul>
+    </div>
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+
+</html>
